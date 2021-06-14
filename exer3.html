@@ -1,0 +1,158 @@
+<!-- Template Source: https://www.w3schools.com/w3css/w3css_templates.asp -->
+<!DOCTYPE html>
+<html>
+<title>Angela's Coffee</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body style="background-color:#F6F6F4;">
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#coffee" onclick="w3_close()" class="w3-bar-item w3-button">Coffee</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Location</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Check Cart</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top" >
+  <div class="w3-white w3-xlarge" >
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()" style="background-color:#EFEEEA;">☰</div>
+    <div class="w3-center w3-padding-16" style="background-color: #EFEEEA">Angela's Coffee</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="coffee">
+    <div class="w3-quarter">
+      <img src="images/americano.jpg" alt="americano" style="width:100%" width="500" height="300">
+      <h3>Americano</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/cappuccino.jpg" alt="cappuccino" style="width:100%" width="500" height="300">
+      <h3>Cappuccino</h3>
+      <p>Everyone’s favourite and the most well-known and standard coffee drink, cappuccino contains more milk-to-coffee ratio.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/espresso.jpg" alt="espresso" style="width:100%" width="500" height="300">
+      <h3>Espresso</h3>
+      <p>Espresso as a standalone coffee is served everywhere. It contains literally the basic essence. Coffee and water. No strings attached.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/flatwhite.jpg" alt="flatwhite" style="width:100%" width="500" height="300">
+      <h3>Flat White</h3>
+      <p>A slight variation of the more generalised Cappucino, a Flat White is a no-nonsense Cappuccino with double the amount of milk as compared to coffee.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="images/frappe.jpg" alt="frappe" style="width:100%" width="500" height="300">
+      <h3>Frappe</h3>
+      <p>One of the fanciest coffee drinks out there, and the one that contains the least amount of coffee in comparison to other items. This Starbucks favourite has to be served cold to be enjoyed.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/iced.jpg" alt="iced" style="width:100%" width="500" height="300">
+      <h3>Iced Coffee</h3>
+      <p>This exciting Spanish offering literally means ‘coffee with ice.’ Also known by bar-fanatics as coffee on the rocks.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/longblack.jpg" alt="longblack" style="width:100%" width="500" height="300">
+      <h3>Long Black Coffee</h3>
+      <p>In essence, Long Black and Café Americano are the same thing, but it makes a world of difference to coffee connoisseurs.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="images/mocha.jpg" alt="mocha" style="width:100%" width="500" height="300">
+      <h3>Mocha</h3>
+      <p>Ah, coffee and chocolate! The holy grail of all beverages. Nothing can go wrong with Mocha, nothing!</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Take your first sip in Angela's Coffee</h3><br>
+    <img src="images/gif.gif" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Coffee Around the World in Your Neighborhood</b></h4>
+      <h6><i>About us</i></h6>
+      <p> Angela's Coffee aims to bring different coffees from around the world into your own Neighborhood block. Giving you that magical experience as you take your first sip, leaving you wanting more. We offer different types of coffee with outstanding quality and affordable prices. Experience the good and relaxing ambiance in our coffee shop where you can also read the books provided in our mini library. </p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FIND US HERE</h3>
+      <p>Main Road, Mc kinley Drive, Makati City</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>ARTICLES ABOUT US</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="images/blog1.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Top 10 Coffee Shops to Visit in your Neighborhood</span><br>
+
+        </li>
+        <li class="w3-padding-16">
+          <img src="images/blog2.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Good Ambiance, Affordable price!</span><br>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>COFFEE TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Sweet</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dark</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chocolately</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Caramel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Iced</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Brewed</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Spain</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Italian</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
